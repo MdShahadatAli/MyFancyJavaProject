@@ -1,5 +1,8 @@
 public class AnimalFactory implements AbstractFactory<Animal> {
-
+	int varble = 15;
+	
+	
+	
     @Override
     public Animal create(String animalType) {
         if ("Dog".equalsIgnoreCase(animalType)) {
